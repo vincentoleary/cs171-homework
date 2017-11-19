@@ -1,0 +1,23 @@
+Vincent O'Leary (vjo25)
+Assignment 3 for CS 171-064
+Linear Regression Generator Analysis
+
+ages.csv
+    1. for the year 2100, their age is predicted to be 102.97368421052624
+    2. I think that this regression is less accurate than I expected, and after the typical lifespan of someone it appears to degrade more over time. When they would be 111, the model only predicts 103. It also only makes sense after the year 1989, as someone can't be a negative age. For a direct correlation of x and y observed with age I expected the model to predict much better.
+
+hurricanes.csv
+    1. for the year 2100, the predicted number of hurricanes will be 7.433076525566669
+    2. I think this model does well, and avoids increasing the number of hurricanes over time. However their is not a relationship between year and number of hurricanes in real life, as this is affected by many complex environmental and atmospheric conditions interacting. Therefore I don't know how useful this model would be, even though the predicted results are comparable to historical data.
+
+temp.csv
+    1. for the year 2100, the predicted temperature will be 59.2006132880318
+    2. I think this model is one of the most accurate, as the rising temperatures observed are expected to continue rising in real life, and while not related to the year, it will change over time predictably and can therefore be predicted with the year. Because this model is based on historical warming, the predictions are likely not increasing fast enough to be accurate with the current understanding, but extrapolating from historical data seems to make a reasonable prediction here.
+
+voters.csv
+    1. for the year 2100, the predicted voter turnout will be 536.0666666666666
+    2. Like the ages, this is a good model of voter turnout, but only for a few more decades at most. Because the population size growth will be limited, voter turnout increases based on historical trends will likely only be accurate for a short time before stabilizing or decreasing. Until then this is a good model.
+
+weights.csv
+    1. for a person 80 inches tall, their predicted weight will be 228.84814814814814
+    2. Like the temperatures, weight and height are generally correlated in real life, and within realistic limits of height this model predicts that reasonably well I believe.  
